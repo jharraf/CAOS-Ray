@@ -1,0 +1,14 @@
+AmbientLight
+----------------------------------------------
+#red: int
+#green: int
+#blue: int
+----------------------------------------------
++AmbientLight(red: int; green: int; blue: int)
++getRed(): int
++getGreen(): int
++getBlue(): int
++getColor(): javafx.scene.paint.Color
++setRed(red: int): void
++setGreen(green: int): void
++setBlue(blue: int): void

@@ -1,0 +1,14 @@
+DirectionalLight -> AmbientLight
+-----------------------------------------------------------------------------------
+#x: double
+#y: double
+#z: double
+#isAPoint: boolean
+-----------------------------------------------------------------------------------
++DirectionalLight(red: int; green: int; blue: int; x: double; y: double; z: double; isAPoint: boolean)
++getX(): double
++getY(): double
++getZ(): double
++setX(x: double): void
++setY(y: double): void
++setZ(z: double): void
